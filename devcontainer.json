@@ -4,16 +4,16 @@
 {
 	"name": "defaultcontainer",
 	"dockerFile": "Dockerfile",
-	"forwardPorts": [ 7071 ],
+	// "forwardPorts": [ 7071 ],
 
-	"mounts": [
+	// "mounts": [
 		// Saves the bash terminal history between instances of the devcontainer
-		"type=volume,source=commandhistory,target=/root/commandhistory",
+		// "type=volume,source=commandhistory,target=/root/commandhistory",
 		// Mounts the login details from the host machine to azcli works in the container
-		"type=bind,source=${env:HOME}${env:USERPROFILE}/.azure,target=/root/.azure",
+		// "type=bind,source=${env:HOME}${env:USERPROFILE}/.azure,target=/root/.azure",
 		// Mounts Azure Powershell logic creds. NOTE: Poweshell uses ".Azure" not ".azure" to store creds
-		"type=volume,source=azurepowershellcreds,target=/root/.Azure"
-	],
+		// "type=volume,source=azurepowershellcreds,target=/root/.Azure"
+	// ],
 
 	// Uncomment to use powershell as default terminal
 	// "settings": {
