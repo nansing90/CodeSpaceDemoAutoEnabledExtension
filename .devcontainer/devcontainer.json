@@ -20,7 +20,8 @@
 	"extensions": [
 		"GitHub.vscode-pull-request-github",
 		"donjayamanne.githistory",
-		"eamodio.gitlens"
+		"eamodio.gitlens",
+		"ZainChen.json"
 	],
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
