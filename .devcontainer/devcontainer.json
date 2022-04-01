@@ -1,8 +1,8 @@
 {
 	"name": "GitHub Codespaces (Default)",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+	//"build": {
+	//	"dockerfile": "Dockerfile"
+	// },
 	"settings": {},
 	"remoteUser": "codespace",
 	"overrideCommand": false,
@@ -15,6 +15,7 @@
 	//	"--init"
 	// ],
 	
+
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"GitHub.vscode-pull-request-github",
