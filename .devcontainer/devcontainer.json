@@ -4,7 +4,7 @@
 	//	"dockerfile": "Dockerfile"
 	// },
 	"settings": {},
-	"remoteUser": "codespace",
+	"remoteUser": "root",
 	"overrideCommand": false,
 	// "mounts": ["source=codespaces-linux-var-lib-docker,target=/var/lib/docker,type=volume"],
 	// "runArgs": [
