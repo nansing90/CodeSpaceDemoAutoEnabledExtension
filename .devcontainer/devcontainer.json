@@ -21,7 +21,8 @@
 		"GitHub.vscode-pull-request-github",
 		"donjayamanne.githistory",
 		"eamodio.gitlens",
-		"ZainChen.json"
+		"ZainChen.json",
+		"oleksandr-olashyn.portal-helper-vscode"
 	],
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
